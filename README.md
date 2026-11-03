@@ -62,7 +62,7 @@ During the completion of this project, several technical challenges were encount
 ## 🚀 How to Run / View
 1.  Download the `.accdb` file to view the MS Access database and relationships.
 2.  Download the `Master_Data.csv` to view the integrated dataset.
-3.  Click the **[Insert Looker Studio Link Here]** to interact with the final dashboard.
+3.  Click the **[[https://datastudio.google.com/s/lTPeNET2gPc]]** to interact with the final dashboard.
 
 ---
 *Created by Arnawan Dwi Nugraha as part of the Bank Muamalat VIX Final Task.*
