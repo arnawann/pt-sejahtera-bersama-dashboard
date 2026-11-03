@@ -22,6 +22,8 @@ As a BI Analyst at PT Sejahtera Bersama, the objective of this project was to an
 ## 🗄️ Database Structure & Relational Model
 The raw data consisted of 4 distinct tables. To integrate them, a relational model was built using Primary Keys (PK) and Foreign Keys (FK):
 
+<img width="419" height="103" alt="relationship" src="https://github.com/user-attachments/assets/7ca1ae9d-3c58-4ec8-8fd7-a809385a2cd8" />
+
 1.  **Customers** (PK: `CustomerID`) - Contains demographic and contact information.
 2.  **Orders** (PK: `OrderID`, FK: `CustomerID`, `ProdNumber`) - Contains transaction date, quantity, and customer references.
 3.  **Products** (PK: `ProdNumber`, FK: `CategoryID`) - Contains product details, price, and category references.
@@ -29,10 +31,14 @@ The raw data consisted of 4 distinct tables. To integrate them, a relational mod
 
 *The integration process was executed by performing JOIN operations across these four tables to generate a single **Master Data** table containing 8 specific columns (order_date, category_name, product_name, product_price, order_qty, total_sales, cust_email, cust_city).*
 
+<img width="339" height="239" alt="master_table" src="https://github.com/user-attachments/assets/5444402f-b2cb-48ee-aba4-3ac1a2ad6acc" />
+
 ---
 
 ## 📊 Dashboard & Key Insights
-The interactive dashboard was built using Looker Studio. You can view the live dashboard here: **[Insert Looker Studio Link Here]**
+The interactive dashboard was built using Looker Studio. You can view the live dashboard here: **[https://datastudio.google.com/s/lTPeNET2gPc]**
+
+<img width="715" height="540" alt="dashboard" src="https://github.com/user-attachments/assets/559b387f-90f9-4417-802c-ed90a5304939" />
 
 **Key Insights Extracted:**
 *   **Total Revenue:** The company generated a total sales revenue of **$14,657,324** across all periods.
